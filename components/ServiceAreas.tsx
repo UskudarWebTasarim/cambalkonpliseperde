@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const turkeyRegions = [
   { name: "İstanbul", desc: "Anadolu ve Avrupa yakası, tüm ilçeler", time: "1–2 gün" },
   { name: "Ankara", desc: "Merkez ve tüm ilçeler", time: "2–3 gün" },
@@ -45,15 +47,15 @@ export default function ServiceAreas() {
             Hizmet Kapsamı
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#1e2a35] mb-4">
-            Türkiye'den Avrupa'ya <br className="hidden sm:block" />
+            Türkiye&apos;den Avrupa&apos;ya <br className="hidden sm:block" />
             <span className="text-[#83bd81]">Kapıya Teslim</span>
           </h2>
           <p className="text-[#4a5568] max-w-2xl mx-auto leading-relaxed">
             Gebze fabrikamızdan çıkan her{" "}
-            <a href="/" className="text-[#83bd81] font-semibold hover:underline">
+            <Link href="/" className="text-[#83bd81] font-semibold hover:underline">
               cam balkon plise perde
-            </a>{" "}
-            siparişi, özenle paketlenerek Türkiye genelinde montaj dahil, Avrupa'ya ise kapıya teslim
+            </Link>{" "}
+            siparişi, özenle paketlenerek Türkiye genelinde montaj dahil, Avrupa&apos;ya ise kapıya teslim
             olarak gönderilmektedir.
           </p>
         </div>
@@ -107,7 +109,7 @@ export default function ServiceAreas() {
                 <span className="text-white text-lg">🇪🇺</span>
               </div>
               <div>
-                <h3 className="font-extrabold text-[#1e2a35] text-[18px]">Avrupa'ya Teslimat</h3>
+                <h3 className="font-extrabold text-[#1e2a35] text-[18px]">Avrupa&apos;ya Teslimat</h3>
                 <p className="text-xs text-[#718096]">Kapıya teslim, 4–10 iş günü</p>
               </div>
             </div>

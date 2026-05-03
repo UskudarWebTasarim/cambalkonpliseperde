@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const stats = [
   { value: "15+", label: "Yıl Sektör Deneyimi", detail: "2010'dan bu yana kesintisiz üretim" },
   { value: "50K+", label: "Tamamlanan Kurulum", detail: "Türkiye ve Avrupa dahil" },
@@ -29,7 +31,7 @@ export default function Expertise() {
               Deneyim Rakamlar<br />ile Konuşur
             </h2>
             <p className="text-[#4a5568] leading-relaxed mb-10">
-              <a href="/" className="text-[#83bd81] font-semibold hover:underline">Cam balkon güneşlik perdesi</a> alanında
+              <Link href="/" className="text-[#83bd81] font-semibold hover:underline">Cam balkon güneşlik perdesi</Link> alanında
               onbeş yılı aşkın deneyim, rastgele bir süre değil. Her kurulumdan öğrenilen bir şey var; bu birikim
               ürüne yansır, müşteriye hissedilir.
             </p>

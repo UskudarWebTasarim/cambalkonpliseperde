@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const socialLinks = [
   {
@@ -106,7 +106,7 @@ export default function Footer() {
             </div>
 
             <p className="text-[#8fa4b8] text-sm leading-relaxed mb-5">
-              Gebze, Kocaeli'nde üretim yapan Fenetre Systems, Türkiye ve Avrupa'ya yönelik
+              Gebze, Kocaeli&apos;nde üretim yapan Fenetre Systems, Türkiye ve Avrupa&apos;ya yönelik
               plise perde, sineklik ve perde sistemleri üretmektedir.
             </p>
 

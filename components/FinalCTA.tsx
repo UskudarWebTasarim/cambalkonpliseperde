@@ -1,4 +1,5 @@
-import { Phone, MessageCircle, Mail } from "lucide-react";
+import { Phone, MessageCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function FinalCTA() {
   return (
@@ -42,9 +43,9 @@ export default function FinalCTA() {
         </h2>
 
         <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-          <a href="/" className="text-white font-semibold underline underline-offset-4 hover:no-underline">
+          <Link href="/" className="text-white font-semibold underline underline-offset-4 hover:no-underline">
             Cam balkon perdesi
-          </a>{" "}
+          </Link>{" "}
           siparişi vermeden önce bir uzmanımızla konuşmanızı öneririz. Yerinde ölçüm, kumaş seçimi ve
           fiyat teklifi — tamamı ücretsiz, hiçbir yükümlülük yoktur.
         </p>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function MaterialQuality() {
   return (
     <section className="py-24 bg-[#f4faf4] border-t-4 border-[#83bd81]" aria-label="Malzeme kalitesi">
@@ -11,9 +13,9 @@ export default function MaterialQuality() {
             </span>
 
             <h2>
-              <a href="/" className="hover:text-[#83bd81] transition-colors">
+              <Link href="/" className="hover:text-[#83bd81] transition-colors">
                 Plise Perde
-              </a>{" "}
+              </Link>{" "}
               Kumaşı Neden Farklı?
             </h2>
 
@@ -77,10 +79,10 @@ export default function MaterialQuality() {
               </tbody>
             </table>
 
-            <h3>Avrupa'ya Uyum: CE ve EN 13561</h3>
+            <h3>Avrupa&apos;ya Uyum: CE ve EN 13561</h3>
 
             <p>
-              <strong>EN 13561 standardı</strong>, dış mekan güneşlik ve perde sistemleri için Avrupa'nın
+              <strong>EN 13561 standardı</strong>, dış mekan güneşlik ve perde sistemleri için Avrupa&apos;nın
               temel zorunlu standardıdır. Bu standardın kapsamındaki testler; rüzgar dayanımı
               (W1–W4 sınıfları), kar yükü kapasitesi, UV direnci ve döngü ömrünü içerir.{" "}
               <em>Fenetre Systems ürünleri</em>, bu testlerin tamamında W3 sınıfı ve üzeri performans göstermektedir.
@@ -88,10 +90,10 @@ export default function MaterialQuality() {
 
             <ul>
               <li>
-                <strong>W3 Rüzgar Sınıfı:</strong> Saatte 120 km'ye kadar rüzgarda yapısal bütünlük korunur.
+                <strong>W3 Rüzgar Sınıfı:</strong> Saatte 120 km&apos;ye kadar rüzgarda yapısal bütünlük korunur.
               </li>
               <li>
-                <strong>UV Dayanımı:</strong> 1.000 saatlik ksenon testi; renk solması %5'in altında kalır.
+                <strong>UV Dayanımı:</strong> 1.000 saatlik ksenon testi; renk solması %5&apos;in altında kalır.
               </li>
               <li>
                 <strong>Yangın Sınıfı:</strong> Cfl-s1 (TS EN 13501-1); zemin döşemelerinde de kullanılan

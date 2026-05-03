@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function MainProductDetail() {
   return (
     <section
@@ -15,9 +17,9 @@ export default function MainProductDetail() {
             </div>
 
             <h2>
-              <a href="/" className="text-gradient hover:opacity-80 transition-opacity">
+              <Link href="/" className="text-gradient hover:opacity-80 transition-opacity">
                 Cam Balkon Plise Perde
-              </a>{" "}
+              </Link>{" "}
               Nedir, Ne İşe Yarar?
             </h2>
 
@@ -134,7 +136,7 @@ export default function MainProductDetail() {
             </ol>
 
             <h3>
-              <a href="/" className="text-[#83bd81] hover:underline">Katlamalı Perde</a> ile Klasik Stor Karşılaştırması
+              <Link href="/" className="text-[#83bd81] hover:underline">Katlamalı Perde</Link> ile Klasik Stor Karşılaştırması
             </h3>
 
             <table>
@@ -175,7 +177,7 @@ export default function MainProductDetail() {
             </table>
 
             <h3>
-              <a href="/" className="text-[#83bd81] hover:underline">Pliseli Perde</a> Kaç Yıl Dayanır?
+              <Link href="/" className="text-[#83bd81] hover:underline">Pliseli Perde</Link> Kaç Yıl Dayanır?
             </h3>
 
             <p>
@@ -188,8 +190,8 @@ export default function MainProductDetail() {
             <h3>Renk ve Model Seçenekleri</h3>
 
             <p>
-              Kumaşta <strong>60'tan fazla renk tonu</strong> mevcuttur. Bej, krem, gri tonları ve düz beyazın yanı sıra
-              <em>desenlı kumaşlar</em> da katalogda yer alır. Profil renkleri ise RAL sistemine göre 5 standart renkte
+              Kumaşta <strong>60&apos;tan fazla renk tonu</strong> mevcuttur. Bej, krem, gri tonları ve düz beyazın yanı sıra
+              <em>desenli kumaşlar</em> da katalogda yer alır. Profil renkleri ise RAL sistemine göre 5 standart renkte
               (beyaz, bej, siyah, antrasit, şampanya) sunulur; özel RAL taleplerine de üretim yapılabilir.
             </p>
 

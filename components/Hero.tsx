@@ -1,4 +1,5 @@
 import { ChevronRight, Star, Shield, Truck, Award } from "lucide-react";
+import Link from "next/link";
 
 function PliseFoldIllustration() {
   return (
@@ -188,13 +189,13 @@ export default function Hero() {
 
             <p className="text-lg text-white/75 leading-relaxed mb-8 max-w-xl">
               <strong className="text-white">Fenetre Systems</strong> imzasıyla Gebze fabrikasında üretilen{" "}
-              <a href="/" className="text-[#83bd81] font-semibold hover:underline underline-offset-2">
+              <Link href="/" className="text-[#83bd81] font-semibold hover:underline underline-offset-2">
                 plise perde sistemleri
-              </a>
+              </Link>
               , cam balkonunuzu her mevsim yaşanabilir bir alana dönüştürür. Özel ölçü üretim,{" "}
-              <a href="/" className="text-[#83bd81] font-semibold hover:underline underline-offset-2">
+              <Link href="/" className="text-[#83bd81] font-semibold hover:underline underline-offset-2">
                 montaj dahil teslimat
-              </a>{" "}
+              </Link>{" "}
               ve 10 yıl garanti.
             </p>
 

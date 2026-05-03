@@ -1,5 +1,6 @@
 import React from "react";
 import { ChevronRight, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const productIcons: Record<string, React.ReactElement> = {
   sineklik: (
@@ -151,9 +152,9 @@ export default function Products() {
                 ⭐ Ana Ürünümüz
               </div>
               <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-4 leading-snug">
-                <a href="/" className="hover:text-[#83bd81] transition-colors">
+                <Link href="/" className="hover:text-[#83bd81] transition-colors">
                   Cam Balkon Plise Perde
-                </a>
+                </Link>
               </h2>
               <p className="text-[#b8c4cf] leading-relaxed mb-6 text-[15px]">
                 Katlanır ve sürgülü cam balkon sistemleriyle tam uyumlu.{" "}
@@ -190,13 +191,13 @@ export default function Products() {
                   Teklif Al
                   <ArrowRight size={15} />
                 </a>
-                <a
+                <Link
                   href="/#cam-balkon-plise-perde-detay"
                   className="inline-flex items-center gap-2 text-white/80 hover:text-white border border-white/25 hover:border-white/50 font-semibold px-5 py-3 rounded-xl text-sm transition-all"
                 >
                   Detaylı İncele
                   <ChevronRight size={15} />
-                </a>
+                </Link>
               </div>
             </div>
 

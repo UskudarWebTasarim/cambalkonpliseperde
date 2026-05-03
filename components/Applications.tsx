@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const apps = [
   {
     title: "Konut Balkonu",
@@ -113,9 +115,9 @@ export default function Applications() {
           </h2>
           <p className="text-[#4a5568] max-w-2xl mx-auto leading-relaxed">
             Konut balkonundan otel projelerine,{" "}
-            <a href="/" className="text-[#83bd81] font-semibold hover:underline">
+            <Link href="/" className="text-[#83bd81] font-semibold hover:underline">
               balkon dekorasyon perdesi
-            </a>{" "}
+            </Link>{" "}
             ihtiyacı duyan her alan için farklı konfigürasyonlar üretiyoruz.
           </p>
         </div>
